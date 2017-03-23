@@ -21,6 +21,7 @@ Usage
 
     def xxx(request):
         photo = request.FILES.get('photo', '')
-        if photo:
-            md5 = calculate_md5(photo)
+        # if photo:
+        #     md5 = calculate_md5(photo)
+        md5 = calculate_md5(photo)
 
