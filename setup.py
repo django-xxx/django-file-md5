@@ -18,7 +18,7 @@ setup(
     author='Hackathon',
     author_email='kimi.huang@brightcells.com',
 
-    packages=['filemd5'],
+    packages=['django_file_md5'],
     py_modules=[],
     install_requires=[],
 
